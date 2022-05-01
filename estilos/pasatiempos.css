@@ -76,6 +76,7 @@
 
 #slide1 {
     text-align: center;
+    margin-bottom: 6px;
 }
 #slide2 {
     text-align: center;
@@ -85,10 +86,6 @@
 }
 #slide4 {
     text-align: center;
-}
-
-#slide1 p{
-    margin-top: 1px;
 }
 
 #slide1 img{
