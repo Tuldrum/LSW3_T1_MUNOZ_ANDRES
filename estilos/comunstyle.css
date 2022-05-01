@@ -2,7 +2,7 @@
 /*Documento originaal CSS*/
 
 body{
-    background-image: url("/archivos/imagenes/fondoMakia.jpg"); 
+    background-image: url("../archivos/imagenes/fondoMakia.jpg"); 
 }
 
 .cabecera{
