@@ -87,6 +87,10 @@
     text-align: center;
 }
 
+#slide1 p{
+    margin-top: 3px;
+}
+
 #slide1 img{
     height: 250px;
     width: auto;
