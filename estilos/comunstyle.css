@@ -1,0 +1,85 @@
+@charset "utf-8"; 
+/*Documento originaal CSS*/
+
+body{
+    background-image: url("/archivos/imagenes/fondoMakia.jpg"); 
+}
+
+.cabecera{
+
+    background-color: #1d354e;
+    height: 150px;
+    border-radius: .5em;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0.1em 0.2em 0.2em black;
+    
+}
+
+h4{
+    color: #FFFFFF;
+    font: normal 32px bolder;
+}
+
+#piePrin{
+    max-width: 90%;
+    margin: auto;
+}
+#piePrin h3{  
+    margin:auto;
+    color:#DCDCDC;
+}
+#bodypie{
+    float:left;
+    max-width: 37.5%;
+    margin: 10px;  
+}
+#regresarIndex{
+    margin-left: 10px;
+    color:#DCDCDC; 
+}
+#regresarIndex a:hover{
+    color:azure; 
+}
+#regresarIndex a:visited{
+    color: rgb(30, 122, 125);
+}
+
+
+.navegacionPrin{
+    list-style: none;
+    background: #DCDCDC;
+    padding: 0px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.navegacionPrin li a{
+    text-shadow: 0.1em 0.1em 0.2em black;
+    text-decoration: none;
+    color: black; 
+    padding: 10px;
+    display: inline-flex;
+    border-radius: .5em;
+}
+
+.navegacionPrin li{
+    display: inline-flex;
+    text-align: center;
+    background-color: #DCDCDC;
+    color: black;   
+    border-radius: 4px;
+}
+
+.navegacionPrin li a:hover{
+    background-color: #2d3e50;
+    color: #FFFFFF;
+}
+
+li{
+    background-color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+}

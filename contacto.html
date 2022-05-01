@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="web personal">
+        <meta name="keywords" content="contacto">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/estilos/comunstyle.css"/>
+    <link rel="stylesheet" href="/estilos/contacto.css"/>
+</head>
+<body>
+    <header class="cabecera">
+        </br>
+        <h4>Contacto</h4>
+    </header>
+
+    <nav>
+        <ul class="navegacionPrin">
+            <li> <a href="index.html">Inicio</a> </li>
+            <li> <a href="estudios.html">Estudios</a> </li>
+            <li> <a href="proyectos.html">Proyectos</a></li>
+            <li> <a href="Pasatiempos.html">Pasatiempos</a> </li>
+            <li> <a href="Contacto.html">Contacto</a> </li>
+        </ul> 
+    </nav>
+
+    <section id="contForm">
+        <form id="formulario" th:action="/guardar   " method="POST"">
+            
+            <label for="nombre">Nombre:</label>
+            <input class="mensCorto" type="text" name="nombre"/>
+            <br/>
+            <label for="mail">Correo:</label>
+            <input id="mail" class="mensCorto" type="email" name="mail"/>
+            <br/>
+            <label for="mensaje">Mensaje:</label>
+            <input id="menLargo" type="text" name="mensaje" maxlength="150"/>
+            
+            <br/>
+    
+            <section id="enviar">
+                <input  type="button" name="guardar" value="Guardar"/>
+            </section>
+            
+        </form>
+    </section>
+    
+    <footer id="piePrin">
+        <section id="bodypie">
+            <h3>&#169 Copyright  2022 - Andrés Muñoz</h3>
+            <h3>Estudiante Dpto. Sistemas - Universidad del cauca</h3>
+        </section>
+        <section id="logounicauca">
+            <a href="http://www.unicauca.edu.co/versionP/" target="_blank">
+                <img  src="/archivos/imagenes/logounicauca.jpg" width="50px"/>
+            </a>
+        </section>
+        <section id="regresarIndex">
+            <a href="index.html">regresar al inicio</a>
+        </section> 
+    </footer>
+</body>
+</html>

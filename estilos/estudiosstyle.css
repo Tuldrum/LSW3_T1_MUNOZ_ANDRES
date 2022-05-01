@@ -1,0 +1,24 @@
+@charset "utf-8"; 
+/*Documento originaal CSS*/
+#sectiontbestudios{
+    max-width: 90%;
+    margin-top: 35px;
+    margin-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;        
+}
+#tablaestudios{
+    color: whitesmoke;
+}
+#tablaestudios th{
+    text-align: center;
+    background-color: #1A374D;
+    text-emphasis:unset;
+    font: normal 30px bolder;
+}
+#tablaestudios td{
+    background-color: #406882;
+    font: normal 30px bold;
+}
+

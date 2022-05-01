@@ -1,0 +1,26 @@
+@charset "utf-8"; 
+
+#ListaProyectos{
+
+    color:white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(35, 64, 77);
+    max-width: 90%;
+    margin-left: 4.70em;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+#ListaProyectos h1{
+    font-family: monospace;
+    font: normal 25px bolder;
+}
+
+#listado li{
+    background-color: rgb(35, 64, 77);
+    font:italic 20px bold; 
+    font-family:monospace;
+}

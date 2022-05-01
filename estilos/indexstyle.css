@@ -1,0 +1,46 @@
+@charset "utf-8"; 
+/*Documento originaal CSS*/
+#fotoPerfil{
+    float: right;
+    background-color: #2d3e50;
+    color: aliceblue;
+    padding: 0.5em;
+    margin-top: 0.35em;
+}
+#contenido{
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 130px;
+    text-align: justify;
+}
+#description{
+    background-color: #2d3e50;  
+    max-width: 83%;
+    padding-left: 0.5em;
+    padding-right: 0.5em; 
+    color: #DCDCDC;  
+}
+
+#mymoood{
+    max-width: 90%;
+    margin:auto; 
+    background-color: #2d3e50;
+    padding-bottom: 1.5em;
+    margin-bottom: 15px;
+}
+#mymoood h3{
+    padding-left: 2.5em;
+    padding-top: 1.5em;
+    color: white;
+}
+
+#video_1{
+    padding-left: 2.5em;
+    max-width: 45%;
+}
+#Spotify{
+    margin-left: 25px;
+    border-radius:12px; 
+    width:45%; 
+    height: 313px; 
+}
